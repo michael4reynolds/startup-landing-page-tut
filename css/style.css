@@ -1,6 +1,24 @@
+/*Debugging*/
 body {
 	background-color: lightgray;
 }
 div {
 	border: 1px solid chocolate;
+}
+
+/*Navigation Section*/
+.top-navigation {
+    backgroud-color: #fff;
+}
+
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.content > img {
+    margin-left: 14px;
+    height: 70px;
+    width: 26px;
 }
