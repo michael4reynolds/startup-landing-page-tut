@@ -1,10 +1,12 @@
 /* Debugging */
 body {
 	background-color: lightgray;
+	font-family: Roboto, sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 div {
-	border: 1px solid chocolate;
+	/*border: 1px solid chocolate;*/
 }
 
 /* General */
@@ -16,7 +18,7 @@ html {
 	box-sizing: inherit;
 }
 
-body {	
+body {
 	letter-spacing: 0.03em;
 }
 
@@ -29,20 +31,24 @@ body {
     width: 970px;
     height: 70px;
     margin: 0 auto;
+    padding: 0 15px;
+}
+
+.top-navigation img {
+    height: 70px;
+    width: 26px;
 }
 
 .top-navigation .links {
 	float: right;
-	font-family: Roboto, sans-serif;
 	color: #838994;
 	font-size: 16px;
-	margin-top: 25px;    
-	-webkit-font-smoothing: antialiased:;
+	margin-top: 25px;
 }
 
 .top-navigation .links li {
 	display: inline-block;
-	margin-left: 25px;	
+	margin-left: 25px;
 }
 
 .top-navigation .links .active {
@@ -55,19 +61,48 @@ body {
 	color: #333333;
 }
 
-.content {
-    padding: 0px 15px;
-}
-
-.content > img {
-    height: 70px;
-    width: 26px;
-}
-
+/* Introduction Section */
 .introduction {
 	background-image: url('../images/first-background.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 45.938rem;
+	overflow: auto;
+}
+
+.introduction .content {
+	color: white;
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.introduction h1, introduction h3 {
+	font-weight: 300;
+}
+
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+
+.introduction h3 {
+	font-size: 1.563rem;
+}
+
+button {
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	margin-bottom: 20px;
+	background-color: #f15a29;
+    width: 10rem;
+    color: white;
+    font-size: 1.125rem;
+}
+
+button:hover {
+	background-color: #d9400e;
+    cursor: pointer;
 }
