@@ -149,3 +149,9 @@ button:hover {
     margin-right: 15px;
     color: cadetblue;
 }
+
+.copyright {
+    color: lightslategray;
+    font-weight: 300;
+    font-size: .8rem;
+}
