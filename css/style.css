@@ -1,84 +1,72 @@
-
-
 /* General */
 
-html
-{
+html {
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
-*, *:before, *:after
-{
+*, *:before, *:after {
     box-sizing: inherit;
 }
 
-body
-{
+body {
     letter-spacing: 0.03em;
 }
 
-.content
-{
+.content {
     margin: 0 auto;
     text-align: center;
 }
 
+
 /* Navigation Section */
 
-.top-navigation
-{
+.top-navigation {
     background-color: #fff;
     position: fixed;
     width: 100%;
     z-index: 9999;
 }
 
-.top-navigation .content
-{
+.top-navigation .content {
     width: 970px;
     height: 70px;
     padding: 0 15px;
     text-align: inherit;
 }
 
-.top-navigation img
-{
+.top-navigation img {
     height: 70px;
     width: 26px;
 }
 
-.top-navigation .links
-{
+.top-navigation .links {
     float: right;
     color: #838994;
     font-size: 16px;
     margin-top: 25px;
 }
 
-.top-navigation .links li
-{
+.top-navigation .links li {
     display: inline-block;
     margin-left: 25px;
 }
 
-.top-navigation .links .active
-{
+.top-navigation .links .active {
     color: #4c5058;
     font-weight: 500;
 }
 
-.top-navigation .links li:hover
-{
+.top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
 }
 
+
 /* Introduction Section */
 
-.introduction
-{
+.introduction {
     background-image: url('../images/first-background.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -87,36 +75,30 @@ body
     overflow: auto;
 }
 
-.introduction .content
-{
+.introduction .content {
     color: white;
     width: 600px;
 }
 
-.introduction h1, introduction h3
-{
+.introduction h1, introduction h3 {
     font-weight: 300;
 }
 
-.introduction h1
-{
+.introduction h1 {
     margin-top: 17.5rem;
     font-size: 3.125rem;
 }
 
-.introduction h3
-{
+.introduction h3 {
     font-size: 1.563rem;
 }
 
-.introduction button
-{
+.introduction button {
     color: white;
     margin-top: 1.5rem;
 }
 
-button
-{
+button {
     border-style: none;
     border-radius: 4px;
     padding: 1rem 1.5rem;
@@ -125,43 +107,37 @@ button
     font-size: 1.125rem;
 }
 
-button:hover
-{
+button:hover {
     background-color: #d9400e;
     cursor: pointer;
 }
 
+
 /* The 3 case images */
 
-.cases .content
-{
+.cases .content {
     color: #1d1e21;
     margin-top: 8rem;
 }
 
-.cases h2
-{
+.cases h2 {
     font-weight: 300;
     font-size: 2.75rem;
     margin-bottom: 3rem;
 }
 
-.cases h3
-{
+.cases h3 {
     font-weight: 400;
     font-size: 1.5rem;
 }
 
-.cases .devices
-{
+.cases .devices {
     width: 33.33333%;
     display: inline-block;
     margin-right: -4px;
 }
 
-.case-image img
-{
+.case-image img {
     width: 127px;
     height: 127px;
 }
-
