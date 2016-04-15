@@ -150,6 +150,11 @@ button:hover {
 
 /* Footer section */
 
+footer hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+}
+
 .icons .fa {
     border: 1px solid #eaebec;
     border-radius: 1.25rem;
